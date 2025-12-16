@@ -1,0 +1,38 @@
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+*.log
+
+# Videos (keep structure but ignore actual video files)
+video-backend/videos/**/*.ts
+video-backend/videos/**/*.m3u8
+!video-backend/videos/**/.gitkeep
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
