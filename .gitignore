@@ -19,12 +19,7 @@ dist/
 video-backend/videos/**/*.ts
 video-backend/videos/**/*.m3u8
 !video-backend/videos/**/.gitkeep
-
 # Environment
-.env
-.env.local
-.env*.local
-
 # IDE
 .vscode/
 .idea/
